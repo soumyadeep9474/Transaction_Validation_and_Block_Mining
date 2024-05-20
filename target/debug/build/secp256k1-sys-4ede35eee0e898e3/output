@@ -1,0 +1,185 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+lax_der_parsing.c
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\include\secp256k1.h(155): warning C4005: 'SECP256K1_API': macro redefinition
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\include\secp256k1.h(155): note: 'SECP256K1_API' previously declared on the command line
+depend/secp256k1/contrib/lax_der_parsing.c(10): warning C4273: 'rustsecp256k1_v0_10_0_ecdsa_signature_parse_compact': inconsistent dll linkage
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\include\secp256k1.h(467): note: see previous definition of 'rustsecp256k1_v0_10_0_ecdsa_signature_parse_compact'
+precomputed_ecmult_gen.c
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\../include/secp256k1.h(155): warning C4005: 'SECP256K1_API': macro redefinition
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\../include/secp256k1.h(155): note: 'SECP256K1_API' previously declared on the command line
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(286): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(299): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(348): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(349): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(350): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(368): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(369): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(370): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(371): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(372): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(373): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(374): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+precomputed_ecmult.c
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\../include/secp256k1.h(155): warning C4005: 'SECP256K1_API': macro redefinition
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\../include/secp256k1.h(155): note: 'SECP256K1_API' previously declared on the command line
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(286): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(299): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(348): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(349): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(350): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(368): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(369): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(370): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(371): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(372): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(373): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(374): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+secp256k1.c
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(286): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(299): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(348): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(349): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(350): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(368): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(369): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(370): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(371): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(372): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(373): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\util.h(374): warning C4244: '=': conversion from 'uint64_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(43): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(44): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(45): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(49): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(50): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(51): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(55): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(56): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(57): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(73): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\assumptions.h(74): warning C4310: cast truncates constant value
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(188): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(267): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(268): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(269): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(279): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(289): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(290): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(290): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(370): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(380): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(381): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modinv64_impl.h(381): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\field_5x52_impl.h(372): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\scalar_4x64_impl.h(118): warning C4244: '=': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\scalar_4x64_impl.h(215): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\scalar_4x64_impl.h(623): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\scalar_4x64_impl.h(643): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\scalar_4x64_impl.h(663): warning C4244: 'function': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecmult_impl.h(518): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecmult_const_impl.h(251): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecmult_const_impl.h(262): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\hash_impl.h(151): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\hash_impl.h(152): warning C4244: 'function': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\hash_impl.h(261): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecdsa_impl.h(185): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecdsa_impl.h(187): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecdsa_impl.h(190): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\int128_struct_impl.h(85): warning C4244: 'function': conversion from 'unsigned int' to 'unsigned char', possible loss of data
+depend/secp256k1/src/secp256k1.c(194): warning C4127: conditional expression is constant
+depend/secp256k1/src/secp256k1.c(213): warning C4127: conditional expression is constant
+depend/secp256k1/src/secp256k1.c(295): warning C4127: conditional expression is constant
+depend/secp256k1/src/secp256k1.c(308): warning C4127: conditional expression is constant
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules\ecdh\../../../include/secp256k1_ecdh.h(30): warning C4132: 'rustsecp256k1_v0_10_0_ecdh_hash_function_sha256': const object should be initialized
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules\ecdh\../../../include/secp256k1_ecdh.h(34): warning C4132: 'rustsecp256k1_v0_10_0_ecdh_hash_function_default': const object should be initialized
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules\schnorrsig\../../../include/secp256k1_schnorrsig.h(64): warning C4132: 'rustsecp256k1_v0_10_0_nonce_function_bip340': const object should be initialized
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules/schnorrsig/main_impl.h(48): warning C4295: 'bip340_algo': array is too small to include a terminating null character
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules\ellswift\../../../include/secp256k1_ellswift.h(75): warning C4132: 'rustsecp256k1_v0_10_0_ellswift_xdh_hash_function_prefix': const object should be initialized
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules\ellswift\../../../include/secp256k1_ellswift.h(83): warning C4132: 'rustsecp256k1_v0_10_0_ellswift_xdh_hash_function_bip324': const object should be initialized
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules/ellswift/main_impl.h(316): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules/ellswift/main_impl.h(317): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\modules/ellswift/main_impl.h(318): warning C4244: '=': conversion from 'uint32_t' to 'unsigned char', possible loss of data
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecmult_impl.h(322) : warning C4706: assignment within conditional expression
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecmult_impl.h(326) : warning C4706: assignment within conditional expression
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecmult_impl.h(331) : warning C4706: assignment within conditional expression
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\secp256k1-sys-0.10.0\depend\secp256k1\src\ecmult_impl.h(335) : warning C4706: assignment within conditional expression
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rustc-link-search=native=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.37.32822\atlmfc\lib\x64
+cargo:rustc-link-lib=static=secp256k1
+cargo:rustc-link-search=native=C:\Users\Soumyadeep\OneDrive\Desktop\SOB_ASSIGNMENT\code-challenge-2024-soumyadeep9474\target\debug\build\secp256k1-sys-4ede35eee0e898e3\out

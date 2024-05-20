@@ -1,0 +1,10 @@
+C:\Users\Soumyadeep\OneDrive\Desktop\SOB_ASSIGNMENT\code-challenge-2024-soumyadeep9474\target\debug\deps\libversion_check-aa6f71a61170c3e7.rmeta: C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\lib.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\version.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\channel.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\date.rs
+
+C:\Users\Soumyadeep\OneDrive\Desktop\SOB_ASSIGNMENT\code-challenge-2024-soumyadeep9474\target\debug\deps\libversion_check-aa6f71a61170c3e7.rlib: C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\lib.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\version.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\channel.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\date.rs
+
+C:\Users\Soumyadeep\OneDrive\Desktop\SOB_ASSIGNMENT\code-challenge-2024-soumyadeep9474\target\debug\deps\version_check-aa6f71a61170c3e7.d: C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\lib.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\version.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\channel.rs C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\date.rs
+
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\lib.rs:
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\version.rs:
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\channel.rs:
+C:\Users\Soumyadeep\.cargo\registry\src\index.crates.io-6f17d22bba15001f\version_check-0.9.4\src\date.rs:
