@@ -12,4 +12,15 @@ This project includes functionalities to:
 
 * Write mined blocks to a file
 
+## Project Structure
+```
+.
+├── src
+│   ├── main.rs                   // consensus mechanism and proof-of-work implementation
+│   ├── transaction_loader.rs     // transaction data fetching
+│   ├── transaction_validator.rs  // transaction validation logic 
+│                    
+├── Cargo.toml
+└── README.md
 
+```
