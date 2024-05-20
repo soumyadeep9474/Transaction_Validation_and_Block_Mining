@@ -3,6 +3,25 @@
 version = 3
 
 [[package]]
+name = "Transaction_Validation_and_Block_Mining"
+version = "0.1.0"
+dependencies = [
+ "bech32",
+ "bs58",
+ "crypto",
+ "crypto-hash",
+ "hex 0.4.3",
+ "rand 0.8.5",
+ "rayon",
+ "ripemd",
+ "rust-crypto",
+ "secp256k1",
+ "serde",
+ "serde_json",
+ "sha2",
+]
+
+[[package]]
 name = "bech32"
 version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -43,25 +62,6 @@ name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
-
-[[package]]
-name = "code-challenge-2024-soumyadeep9474"
-version = "0.1.0"
-dependencies = [
- "bech32",
- "bs58",
- "crypto",
- "crypto-hash",
- "hex 0.4.3",
- "rand 0.8.5",
- "rayon",
- "ripemd",
- "rust-crypto",
- "secp256k1",
- "serde",
- "serde_json",
- "sha2",
-]
 
 [[package]]
 name = "commoncrypto"

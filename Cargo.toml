@@ -1,10 +1,10 @@
 [package]
-name = "code-challenge-2024-soumyadeep9474"
+name = "Transaction_Validation_and_Block_Mining"
 version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "code-challenge-2024-soumyadeep9474"
+name = "Transaction_Validation_and_Block_Mining"
 path = "src/main.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
