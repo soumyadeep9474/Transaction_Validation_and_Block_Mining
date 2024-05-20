@@ -73,3 +73,57 @@ The following diagram represents the main components and flow of the blockchain 
 | Function: std::io::BufWriter::write_all |
 +-----------------------------------------+
 ```
+### Detailed Components
+#### Transaction Loader
+
+Module: `transaction_loader`
+
+Function: `fetch_transactions_from_mempool`
+
+---
+
+#### Transaction Validator
+
+Module: `transaction_validator`
+
+Function: `validation_transaction`
+
+Sub-functions:
+- `verify_p2pkh_address`
+- `verify_v0_p2wpkh_address`
+- `verify_v0_p2wsh_address`
+- `verify_v1_p2tr_address`
+- `verify_p2sh_address`
+- `verify_unknown`
+- `verify_scriptsig_p2pkh`
+- `verify_scriptsig_p2sh`
+- `verify_witness_p2wpkh`
+- `verify_witness_p2wsh`
+---
+
+#### Mine Block
+
+Function: `mine_block`
+
+Sub-functions:
+- `hashes_of_transactions`
+- `calculate_merkle_root`
+- `calculate_block_hash`
+- `merkle_damgard_util`
+- `sha256_compression`
+---
+
+#### Block Creation
+
+Struct: `Block`
+
+Functions:
+- `Block::new`
+- `Block::to_output_string`
+---
+
+#### Write to File
+
+File: `output.txt`
+
+Function: `std::io::BufWriter::write_all`
