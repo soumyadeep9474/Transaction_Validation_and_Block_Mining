@@ -127,3 +127,25 @@ Functions:
 File: `output.txt`
 
 Function: `std::io::BufWriter::write_all`
+
+## Usage
+To use this project, follow these steps:
+
+1) Clone the repository
+2) Build the project using Cargo
+3) Run the project to fetch transactions, validate them, mine a block, and write the block to a file
+```
+git clone <repository-url>
+cd <repository-directory>
+cargo build
+cargo run
+```
+
+## Unit Tests
+Unit tests are provided to verify the correctness of the functions. Run the tests using Cargo:
+'''
+cargo test
+'''
+
+## Conclusion
+The blockchain transaction validator and miner is a comprehensive Rust project that demonstrates the process of fetching transactions, validating them, mining new blocks, and writing the mined blocks to a file. The modular design ensures that each component can be tested and maintained independently.
