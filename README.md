@@ -1,4 +1,4 @@
-# Blockchain Transaction Validator and Miner
+# Blockchain Transaction Validator and Miner Demo
 ![image](https://github.com/soumyadeep9474/Transaction_Validation_and_Block_Mining/assets/105192349/da1ca2ca-445f-4802-ada3-132e1e986355)
 
 This project is a blockchain transaction validator and miner implemented in Rust. It validates various types of Bitcoin transactions, assembles blocks, and mines new blocks.
