@@ -4,9 +4,9 @@ This project is a blockchain transaction validator and miner implemented in Rust
 ## Overview
 This project includes functionalities to:
 
-> Fetch transactions from the mempool
-> Validate transactions
-> Mine new blocks
-> Write mined blocks to a file
+⋅⋅* Fetch transactions from the mempool
+⋅⋅* Validate transactions
+⋅⋅* Mine new blocks
+⋅⋅* Write mined blocks to a file
 
 
