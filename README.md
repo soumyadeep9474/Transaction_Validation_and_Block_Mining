@@ -143,9 +143,9 @@ cargo run
 
 ## Unit Tests
 Unit tests are provided to verify the correctness of the functions. Run the tests using Cargo:
-'''
+```
 cargo test
-'''
+```
 
 ## Conclusion
 The blockchain transaction validator and miner is a comprehensive Rust project that demonstrates the process of fetching transactions, validating them, mining new blocks, and writing the mined blocks to a file. The modular design ensures that each component can be tested and maintained independently.
