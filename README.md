@@ -16,6 +16,7 @@ This project includes functionalities to:
 
 ## Project Structure
 ```
+├── mempool
 ├── src
 │   ├── main.rs                   // consensus mechanism and proof-of-work implementation
 │   ├── transaction_loader.rs     // transaction data fetching
