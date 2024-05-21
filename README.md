@@ -150,10 +150,10 @@ cargo test
 ```
 
 ## Result
-Example of the output.txt file can be
-1st line - TXID
-2nd line coinbase txid
-... lines - validated txids ( in this example 4436 transactions got validated from 7131 transactions)
+Example of the output.txt file:
+- `1st line - TXID`
+- `2nd line coinbase txid`
+- `... lines - validated txids ( in this example 4436 transactions got validated from 7131 transactions)`
 ```
 0100000000000000000000000000000000000000000000000000000000000000000000003ba3edfd7a7b12b27ac72c3e67768f617fc81bc3888a51323a9fb8aa4b1e5e4a29ab5f49ffff001d1dac2b7c
 9faffc3027c1b2387bbc3637aafcfb73ed41fd3209398fa48234b9fc4fabe71e
