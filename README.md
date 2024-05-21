@@ -151,7 +151,7 @@ cargo test
 
 ## Result
 Example of the output.txt file:
-- `1st line - TXID`
+- `1st line - BLOCK HEADER`
 - `2nd line coinbase txid`
 - `... lines - validated txids ( in this example 4436 transactions got validated from 7131 transactions)`
 ```
